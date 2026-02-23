@@ -1,0 +1,44 @@
+.booking {
+    max-width: 500px;
+    margin: 100px auto 50px;
+    padding: 20px;
+}
+
+.booking h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #d18f9b;
+}
+
+.booking form input,
+.booking form select,
+.booking form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.booking form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.booking button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #d18f9b, #f3b7c1);
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.booking button:hover {
+    opacity: 0.9;
+}
